@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  &__input {
+    padding: 5px 15px;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  }
+  &__input-item {
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    &::placeholder {
+      color: #ADB5BD;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  &__list-item {
+    list-style: none;
+    &_profile {
+      display: flex;
+      column-gap: 15px;
+    }
+
+  }
+  &__profile-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232D42;
+    &_trade {
+      font-size: 13px;
+      line-height: 17px;
+      color: #8A92A6;
+    }
+  }
+}

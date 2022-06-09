@@ -1,0 +1,134 @@
+.main-log {
+
+  &__row {
+    display: flex;
+    column-gap: 70px;
+  }
+  &__box {
+    padding-top: 75px;
+  }
+  &__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    color: #0E185F;
+    margin-bottom: 50px;
+  }
+  &__card {
+    width: 490px;
+  }
+  &__box {
+    width: calc(100% - 560px);
+
+  }
+
+}
+.card {
+  padding: 10px 5px 112px;
+  &_trouble {
+    margin: 0 auto;
+  }
+  &__button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 62px;
+  }
+  &__button {
+    cursor: pointer;
+    padding: 18px 80px;
+    background: #0E185F;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    border: none;
+    &_inactive {
+      color: #0E185F;
+      background: #fff;
+    }
+  }
+  &__title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #0E185F;
+  }
+  &__new-acc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #533E85;
+    margin-bottom: 40px;
+  }
+  &__link-acc {
+    text-decoration: none;
+    color: #533E85;
+    font-weight: bold;
+  }
+  &__input {
+    border-bottom: 2px solid #E4E4E4;
+    margin-bottom: 45px;
+
+  }
+  &__input-item {
+    border: none;
+    outline: none;
+    margin-bottom: 17px;
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.25);
+    }
+
+  }
+  &__forgot-pass {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  &__forgot-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.25);
+  }
+  &__button-log {
+    margin-bottom: 30px;
+  }
+  &__border {
+    border: 1px solid #E4E4E4;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  &__box {
+    width: 70px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 35px);
+  }
+  &__button-sing-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    &:not(:last-child) {
+      margin-bottom: 17px;
+    }
+  }
+
+}
+.hint-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.25);
+  &_input {
+    color: #533E85;
+  }
+}

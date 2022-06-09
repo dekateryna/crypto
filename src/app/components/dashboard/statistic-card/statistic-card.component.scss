@@ -1,0 +1,38 @@
+.statistic-card {
+  padding: 7px 26px 15px 26px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 12px;
+  column-gap: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-bottom: 11px;
+  &__item {
+    width: 100px;
+    color: #232D42;
+    font-size: 14px;
+    &_long {
+      width: 200px;
+    }
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #232D42;
+  }
+  &__item-box {
+    width: 60px;
+    padding: 3px 10px;
+    background: rgba(90, 248, 116, 0.4);
+    border-radius: 5px;
+    font-size: 12px;
+    color: #0B5F03;
+    text-align: center;
+    &_view {
+      font-size: 14px;
+      color: #232D42;
+      background: #F1F1F1;
+    }
+  }
+}

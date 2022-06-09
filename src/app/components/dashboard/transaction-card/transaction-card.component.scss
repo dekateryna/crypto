@@ -1,0 +1,43 @@
+.transaction-card {
+  width: 100%;
+
+  &__title {
+    padding: 22px 17px 12px 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 33px;
+    color: #232D42;
+
+  }
+  &__table-name {
+    padding: 5px 30px;
+    background: #F5F6FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__table-name-item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8A92A6;
+    text-align: left;
+  }
+  &__table {
+    padding: 15px 30px 15px 30px;
+    border-bottom: 1px solid #E4E4E4;
+  }
+  &__more {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+  &__more-link {
+    text-decoration: none;
+    color: #000000;
+  }
+}

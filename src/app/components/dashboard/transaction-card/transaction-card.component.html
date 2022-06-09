@@ -1,0 +1,15 @@
+<div class="transaction-card history-card">
+  <div class="transaction-card__title">Transaction History</div>
+  <div class="transaction-card__table-name">
+    <div class="transaction-card__table-name-item">Time</div>
+    <div class="transaction-card__table-name-item">Assets</div>
+    <div class="transaction-card__table-name-item">Amount</div>
+    <div class="transaction-card__table-name-item">Status</div>
+  </div>
+  <div class="transaction-card__table" *ngFor="let item of tableCards">
+    <app-table-card [item]="item"></app-table-card>
+  </div>
+  <div class="transaction-card__more">
+    <a class="transaction-card__more-link" href="#">Show More</a>
+  </div>
+</div>

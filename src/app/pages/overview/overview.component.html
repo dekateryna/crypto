@@ -1,0 +1,41 @@
+<div class="overview">
+  <div class="dashboard-container">
+    <h1 class="overview__title">Overview</h1>
+    <div class="overview__balance">
+      <div class="overview__card" *ngFor="let item of balanceCards">
+        <app-balance-card [item]="item"></app-balance-card>
+      </div>
+    </div>
+    <div class="overview__cards-history">
+      <div class="overview__graf-card">
+        <app-graf-card></app-graf-card>
+      </div>
+      <div class="overview__transaction-card">
+        <app-transaction-card></app-transaction-card>
+      </div>
+    </div>
+    <section class="overview__statistics" >
+      <h2 class="overview__subtitle overview-subtitle">Subscribed Bots and Statistics</h2>
+      <div class="overview__statistics-title">
+        <div class="overview__statistics-name">BOT Name</div>
+        <div class="overview__statistics-name overview__statistics-name_long">Description</div>
+        <div class="overview__statistics-name overview__statistics-name_long">Strategy</div>
+        <div class="overview__statistics-name">BOT Users</div>
+        <div class="overview__statistics-name">Revenue</div>
+        <div class="overview__statistics-name">Status</div>
+        <div class="overview__statistics-name overview__statistics-name_long">Action</div>
+      </div>
+      <div class="overview__statistics-content" *ngFor="let item of statisticCards">
+        <app-statistic-card [item]="item" ></app-statistic-card>
+      </div>
+    </section>
+    <section class="overview__news">
+      <h2 class="overview__subtitle overview-subtitle">Latest News</h2>
+      <div class="overview__news-content">
+          <div class="overview__news-box" *ngFor="let item of newsCards">
+            <app-news-card [item]="item"></app-news-card>
+          </div>
+       </div>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.table-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__content {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 49px;
+    text-align: center;
+  }
+  &__status {
+    border-radius: 5px;
+    font-size: 8px;
+    line-height: 14px;
+    padding: 3px 10px;
+    &:first-letter {
+      text-transform: uppercase;
+    }
+    &_completed {
+      background: rgba(90, 248, 116, 0.4);
+      color: #0B5F03;
+    }
+    &_pending {
+      background: rgba(226, 248, 90, 0.4);
+      color: #909A1C;
+    }
+    &_cancelled {
+      background: rgba(248, 90, 128, 0.4);
+      color: #DA2F2F;
+    }
+  }
+}

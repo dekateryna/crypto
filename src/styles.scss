@@ -1,1 +1,105 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('http://fonts.cdnfonts.com/css/raleway-5');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1230px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 27px;
+  padding-right: 27px;
+  background: linear-gradient(90deg, #55B4FF -1%, #0C81DD 98.5%);
+  border-radius: 50px;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  &_small {
+    width: 140px;
+  }
+  &_banner {
+    padding: 18px 65px;
+    border-radius: 100px;
+    background: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #533E85;
+  }
+  &_login {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+  }
+  &_google, &_facebook, &_apple {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+  }
+  &_google {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+  }
+  &_facebook {
+    background: #3959FF;
+  }
+  &_apple {
+    background: #000;
+  }
+}
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #533E85;
+}
+.subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: left;
+  color: #0E185F;
+}
+.dashboard-container {
+  margin: 0 auto;
+  max-width: 1183px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.history-card {
+  background: #FFFFFF;
+  box-shadow: 0 10px 13px rgba(17, 38, 146, 0.05);
+  border-radius: 8px;
+}
+.overview-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 49px;
+  color: #232D42;
+
+}
