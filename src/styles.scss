@@ -43,15 +43,11 @@
     color: #533E85;
   }
   &_login {
-    padding-left: auto;
-    padding-right: auto;
     width: 100%;
   }
   &_google, &_facebook, &_apple {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: auto;
-    padding-right: auto;
     width: 100%;
   }
   &_google {
@@ -95,11 +91,69 @@
   box-shadow: 0 10px 13px rgba(17, 38, 146, 0.05);
   border-radius: 8px;
 }
-.overview-subtitle {
+.dashboard-subtitle {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 49px;
   color: #232D42;
+  margin-bottom: 15px;
 
 }
+.profile-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ADB5BD;
+  &_input {
+    font-size: 12px;
+  }
+}
+.overview {
+  &__statistics-title {
+    background: linear-gradient(90deg, #0C81DD -1%, #3A57E8 98.5%);
+    border-radius: 12px;
+    padding: 13px 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    text-align: center;
+  }
+
+  &__statistics-name {
+    width: 100px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    &_long {
+      width: 200px;
+    }
+  }
+}
+.statistic-card {
+  padding: 7px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  //&:not(:last-child) {
+    margin-bottom: 10px;
+  //}
+  &__item {
+    width: 100px;
+    color: #232D42;
+    font-size: 14px;
+    text-align: center;
+    &_long {
+      width: 200px;
+    }
+  }
+}
+
+

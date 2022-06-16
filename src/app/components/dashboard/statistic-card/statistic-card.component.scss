@@ -1,21 +1,4 @@
 .statistic-card {
-  padding: 7px 26px 15px 26px;
-  display: flex;
-  align-items: center;
-  background: #FFFFFF;
-  border-radius: 12px;
-  column-gap: 20px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  margin-bottom: 11px;
-  &__item {
-    width: 100px;
-    color: #232D42;
-    font-size: 14px;
-    &_long {
-      width: 200px;
-    }
-  }
   &__text {
     font-size: 16px;
     line-height: 28px;

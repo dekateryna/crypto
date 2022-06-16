@@ -19,6 +19,13 @@ import { TransactionCardComponent } from './components/dashboard/transaction-car
 import { TableCardComponent } from './components/dashboard/transaction-card/table-card/table-card.component';
 import { StatisticCardComponent } from './components/dashboard/statistic-card/statistic-card.component';
 import { NewsCardComponent } from './components/dashboard/news-card/news-card.component';
+import { ProfilePageComponent } from './pages/profile-page/profile-page.component';
+import { ProfileCardComponent } from './components/dashboard/profile-card/profile-card.component';
+import { InputCardComponent } from './components/dashboard/input-card/input-card.component';
+import { InvoicesCardComponent } from './components/dashboard/invoices-card/invoices-card.component';
+import { InvoicesContentCardComponent } from './components/dashboard/invoices-content-card/invoices-content-card.component';
+import { AuthenticationCardComponent } from './components/dashboard/authentication-card/authentication-card.component';
+
 
 
 @NgModule({
@@ -40,6 +47,12 @@ import { NewsCardComponent } from './components/dashboard/news-card/news-card.co
     TableCardComponent,
     StatisticCardComponent,
     NewsCardComponent,
+    ProfilePageComponent,
+    ProfileCardComponent,
+    InputCardComponent,
+    InvoicesCardComponent,
+    InvoicesContentCardComponent,
+    AuthenticationCardComponent,
   ],
   imports: [
     BrowserModule,
